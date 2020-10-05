@@ -1,4 +1,4 @@
-# resourceNavigation
+# Resource Navigation
 
 ## Resources
 
