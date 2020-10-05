@@ -8,6 +8,8 @@
 [Weekly LO](https://github.com/RyanGC93/weeklyLearningObjectives)
 
 ## Projects
+[Projects With Comments](https://github.com/RyanGC93/FinishedProjectsWithComments)
 
 
 ## Final Project
+[final project](https://github.com/RyanGC93/finalProject)
