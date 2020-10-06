@@ -21,3 +21,5 @@
 [Youtube Coding Videos](https://www.youtube.com/playlist?list=PLVsDYAD6gsuiq3YN6p0ej8CDdvcQ1Iwot)
 
 [Algo Visualization](https://visualgo.net)
+
+[Google Drive Links](https://docs.google.com/document/d/1Us3tJqnwukSBWPJp2NQQlDV0ojef26oLDl1jeAlBvU4/edit)
