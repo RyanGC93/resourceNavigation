@@ -12,3 +12,7 @@
 
 # Random 
 [Liked Code Pens](https://codepen.io/ryangc93/pens/loved)
+
+# JavaScript 
+[Array methods](git@github.com:RyanGC93/resourceNavigation.git)
+[Object Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
