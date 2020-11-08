@@ -23,6 +23,7 @@
 [Algo Visualization](https://visualgo.net)
 
 [Google Drive Links](https://docs.google.com/document/d/1Us3tJqnwukSBWPJp2NQQlDV0ojef26oLDl1jeAlBvU4/edit)
+[Image Fetch API](https://placeimg.com/)
 
 ## Study Resources
 
