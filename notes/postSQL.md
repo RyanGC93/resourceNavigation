@@ -8,6 +8,8 @@
 You don't want pgAdmin nor the Stack Builder things. Uncheck. Uncheck. Next
 
 
+## This is specific to wsl -v 1 and windows running ubuntu
+
 ### Installing PostgreSQL Client Tools on Ubuntu
 	wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 	echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" | sudo tee  /etc/apt/sources.list.d/pgdg.list
@@ -23,7 +25,6 @@ alias psql="psql -h localhost"
 create user
 ```console
 	psql -U postgres -c "CREATE USER `whoami` WITH PASSWORD 'password' SUPERUSER"
-	c
 	echo "to see who"
 	psql -U postgres postgres
 	echo " replace with password"
@@ -36,7 +37,7 @@ localhost:5432:*:«your Ubuntu user name»:«the password you just used»"
 
 	echo"change permissions so only you can read it"
 	chmod go-rw ~/.pgpass
-	echo" to confirm"
+	echo " to confirm"
 	ls -al ~/.pgpass
 
 ## Installin Postbird 
