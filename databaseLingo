@@ -1,0 +1,9 @@
+Process of using sql
+
+Connect to an RDBMS specifying
+	credentials, user name and password
+	the name of the database that you want to use
+Issue one or more SQL statements to interact with
+	the structure of the database
+	the data in the database
+
