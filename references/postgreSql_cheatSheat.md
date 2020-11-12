@@ -1,8 +1,8 @@
-# 
+#
 
 [create user](https://www.postgresql.org/docs/current/sql-createuser.html)
 
-Reading syntax 
+Reading syntax
 [ ] meand options
 
 ``` console
@@ -39,7 +39,7 @@ create database database_name
 create datatypes
 
 ```code
-create dataStructure name( 
+create dataStructure name(
 echo "enter name, datatypes"
 echo "to close ')'"
 echo " for id
@@ -51,9 +51,7 @@ TO REFERERNCE A KEY
 echo "foreign key (person_id) reference nameToReference (id)"
 ```
 
-TO describe a table 
+TO describe a table
 ``` console
 \d
 ```
-
-

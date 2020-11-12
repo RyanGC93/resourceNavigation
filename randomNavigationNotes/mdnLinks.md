@@ -1,6 +1,8 @@
-# This file holds mdn links
+# This directory holds official documentation
 
-##Week 9
+## Week 9
+
+MDN Documentation: CSS
 
 [import css](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
 [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
@@ -17,3 +19,7 @@
 
 
 ## Week 10
+
+[postGres Documentation](https://www.postgresql.org/docs/)
+
+[Sequilize Documentation](https://sequelize.org/v5/)

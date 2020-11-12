@@ -1,10 +1,19 @@
 # Sequelize Cheatsheet
 
+
+
 ## Command Line
 
 Sequelize provides utilities for generating migrations, models, and seed files.  They are exposed through the `sequelize-cli` command.
 
 ### Init Project
+
+```bash
+npm install sequelize@^5.0.0
+npm install sequelize-cli@^5.0.0
+npm install pg@^8.0.0
+
+```
 
 ```bash
 $ npx sequelize-cli init

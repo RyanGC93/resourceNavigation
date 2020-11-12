@@ -1,5 +1,3 @@
-# Random Notes
-
 
 ## Gulp
 https://css-tricks.com/the-simplest-ways-to-handle-html-includes/
@@ -22,7 +20,7 @@ And you’d process it like:
 
 var fileinclude = require('gulp-file-include'),
   gulp = require('gulp');
- 
+
 gulp.task('fileinclude', function() {
   gulp.src(['index.html'])
     .pipe(fileinclude({
