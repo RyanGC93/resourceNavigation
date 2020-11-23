@@ -23,7 +23,9 @@ You must create a database user, and update the `config/config.json` file to mat
 ### Create Database
 
 ```bash
+
 $ npx sequelize-cli db:create
+$ npx sequelize-cli db:create --env="test"
 ```
 
 ### Generate a model and its migration
