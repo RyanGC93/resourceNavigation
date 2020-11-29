@@ -2,9 +2,7 @@
 
 1. **newbranch $1** >> creates new  git branch
 2. **cm $1** >> # add, commit with message, push to repo and clr terminal
-3. **newrepo $1** >> // creates git repo with ignore and readme
 4. **ghmov $1**>> removes and adds orgin
-5. Dwn >> **need to see if it works**
 
 
 **Shell Aliases**
@@ -22,3 +20,12 @@
 3. **Control + enter** >>> split editor
 4. **Shift + Q , K** >>> Start quokka on cur
 5. **Shift + Q , E** >>> stop quokka on cur
+
+
+To kill specific ports
+```console
+	lsof -i :<port>
+	echo "list of PID"
+	kill -9 <PID>
+
+```
