@@ -20,7 +20,9 @@
 	# displays commands with that search term
 	man <command>
 	# displays manual for that command
-	
+	dig <address> <+trace>
+	# DNS Lookup with trace
+	# trace >> track in real-time the pathway taken by a packet on an IP network from source to destination, reporting the IP addresses of all the routers it pinged in between
 ```
 
 # Thing that are basic but I need to work on 

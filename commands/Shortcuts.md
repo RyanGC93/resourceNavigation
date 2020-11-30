@@ -39,6 +39,8 @@ Ctrl+K , V >>> Open Markdown preview to the side
 Alt + direction >> resizes pane
 Ctrl + direction >> changes focus 
 
+# Capture2Text
+win + q >> perform ocr capture
 
 To kill specific ports
 ```console
