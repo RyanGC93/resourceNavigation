@@ -29,5 +29,6 @@
 
 cat 
 mv
+chmod
 
 ------------ I Got to 41 minutes of the video ------------------------
