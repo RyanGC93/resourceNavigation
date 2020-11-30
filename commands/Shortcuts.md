@@ -35,6 +35,10 @@ Alt+Click >>> Insert cursor
 Ctrl+Shift+V >>> Open Markdown preview
 Ctrl+K , V >>> Open Markdown preview to the side
 
+#Windows Terminal
+Alt + direction >> resizes pane
+Ctrl + direction >> changes focus 
+
 
 To kill specific ports
 ```console
