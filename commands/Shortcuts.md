@@ -3,6 +3,7 @@
 1. **newbranch $1** >> creates new  git branch
 2. **cm $1** >> # add, commit with message, push to repo and clr terminal
 4. **ghmov $1**>> removes and adds orgin
+4. **dwnDir*** >> opens the file explorer
 
 
 **Shell Aliases**
