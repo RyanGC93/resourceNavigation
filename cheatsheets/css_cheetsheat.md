@@ -32,7 +32,7 @@
 **After Element** .class::after {}
 
 ## Text Styling
-**Font style**
+**Font style** 
 font-style: normal | italic | oblique
 **Font Variant**
 font-variant: normal | small-caps
@@ -191,3 +191,4 @@ content: counter(name-of-counter)
 **Attribute Dynamic Value**
 content: attr(name-of-attribute)
 
+## Media Queries 
