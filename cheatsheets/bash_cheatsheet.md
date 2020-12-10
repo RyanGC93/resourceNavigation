@@ -1,5 +1,8 @@
 # Bash CheatSheet
 ```bash
+	history 
+	# shows terminal history
+
 	pushd 
 	# goes to a directory from directory
 	
