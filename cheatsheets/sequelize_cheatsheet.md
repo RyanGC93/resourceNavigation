@@ -1,6 +1,6 @@
 # Sequelize Cheatsheet
 
-
+npx sequilize shows the command option
 
 ## Command Line
 
