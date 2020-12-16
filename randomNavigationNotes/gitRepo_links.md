@@ -1,6 +1,6 @@
 # WEEK11
 
-Probjects
+Projects
 - [native node app](git@github.com: RyanGC93/native-node-app.git)
 - [breadit](git@github.com:jm-riley/breaddit.git)
 - [round up](git@github.com:RyanGC93/routing-roundup-project.git)
