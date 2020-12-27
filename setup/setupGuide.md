@@ -4,6 +4,18 @@
 - https://github.com/jarun/nnn
 - [clone](git@github.com:jarun/nnn.git)
 - [Dependencies](https://github.com/jarun/nnn/wiki/Usage)
-### Installation
+```
+# Dependencies
+sudo apt-get install -y xdg-utils tar zip file coreutils trash-cli
+
+```
+```
+# clone nnn repo, cd into dir, and run commands
 sudo apt-get install pkg-config libncursesw5-dev libreadline-dev
 sudo make strip install
+```
+
+
+
+## Settings Repos
+1. git@github.com:RyanGC93/bash_scriptsAndAliases.git
