@@ -15,7 +15,17 @@ sudo apt-get install pkg-config libncursesw5-dev libreadline-dev
 sudo make strip install
 ```
 
+2. micro 
+- 
+```
+# to install
+cd /usr/local/bin; curl https://getmic.ro | sudo bash
+```
 
+## Other useful things 
+1. [git open](https://github.com/paulirish/git-open)
+-- git open >>> opens git repo in browserb2. [glow](https://github.com/charmbracelet/glow)
+-- terminal markdown viewer
 
 ## Settings Repos
 1. git@github.com:RyanGC93/bash_scriptsAndAliases.git

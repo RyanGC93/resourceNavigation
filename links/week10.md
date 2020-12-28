@@ -50,6 +50,16 @@
 [dbdiagram.io](https://dbdiagram.io/home?utm_source=holistics&utm_medium=top_5_tools_blog)
 [QuickDBD](https://www.quickdatabasediagrams.com/)
 
+### Sequelize
+[Sequelize ORM](https://sequelize.org/v5/)
+[documentation](https://sequelize.org/v5/manual/data-types.html)
+[Query Interface documentation](https://sequelize.org/master/class/lib/query-interface.js~QueryInterface.html)
+[Models documentation](https://sequelize.org/master/class/lib/model.js~Model.html)
+[Sequelize querying documentation](https://sequelize.org/v5/manual/querying.html)
+[list of Sequelize query operators](https://sequelize.org/v5/manual/querying.html#operators)
+[ValidationError](https://sequelize.org/v5/class/lib/errors/validation-error.js~ValidationError.html)
+[ValidationErrorItems](https://sequelize.org/v5/class/lib/errors/validation-error.js~ValidationErrorItem.html)
+[documentation for validations](https://sequelize.org/v5/manual/models-definition.html#validations)
 
 - 
 - 
