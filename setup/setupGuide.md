@@ -24,8 +24,11 @@ cd /usr/local/bin; curl https://getmic.ro | sudo bash
 
 ## Other useful things 
 1. [git open](https://github.com/paulirish/git-open)
--- git open >>> opens git repo in browserb2. [glow](https://github.com/charmbracelet/glow)
+-- git open >>> opens git repo in browser
+2. [glow](https://github.com/charmbracelet/glow)
 -- terminal markdown viewer
+3. [joplin note taking](https://github.com/laurent22/joplin)
+-- note taking utility
 
 ## Settings Repos
 1. git@github.com:RyanGC93/bash_scriptsAndAliases.git
