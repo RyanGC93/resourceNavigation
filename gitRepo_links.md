@@ -8,3 +8,7 @@ Projects
 - [round up](git@github.com:RyanGC93/routing-roundup-project.git)
 - [forumulative-forms](git@github.com:RyanGC93/formulative-forms-project.git)
 - [Amusement Park](git@github.com:RyanGC93/amusement-park-tracker.git)
+
+## WEEK12
+
+[excercise group project](git@github.com:RyanGC93/fitnessOverflow.git)
