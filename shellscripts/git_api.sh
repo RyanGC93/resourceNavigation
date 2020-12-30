@@ -16,8 +16,8 @@ function ghcollab(){
 	read answer
 	clear
 	echo $answer
-	echo "Authorization: token c6e34e765af240f160636bf36935acd22681edba" "https://api.github.com/repos/RyanGC93/${gitBase}/collaborators/${answer}"
-	curl -H "Authorization: token c6e34e765af240f160636bf36935acd22681edba" "https://api.github.com/repos/RyanGC93/${gitBase}/collaborators/${answer}" -X PUT -d '{"permission":"admin"}'	
+	echo "Authorization: token ${TOKEN}" "https://api.github.com/repos/RyanGC93/${gitBase}/collaborators/${answer}"
+	curl -H "Authorization: token ${TOKEN}" "https://api.github.com/repos/RyanGC93/${gitBase}/collaborators/${answer}" -X PUT -d '{"permission":"admin"}'	
 	echo "⚡⚡⚡⚡⚡⚡⚡NEW COLLAB⚡⚡⚡⚡⚡⚡⚡"
 	echo "⚡⚡⚡⚡⚡⚡⚡$answer⚡⚡⚡⚡⚡⚡⚡"
 }

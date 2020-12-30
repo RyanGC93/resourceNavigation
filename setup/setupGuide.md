@@ -30,5 +30,7 @@ cd /usr/local/bin; curl https://getmic.ro | sudo bash
 3. [joplin note taking](https://github.com/laurent22/joplin)
 -- note taking utility
 4. [gh collaborator](https://github.com/maxogden/collaborator)
+4. bash autocomple
+-- sudo apt install bash-completion
 ## Settings Repos
 1. git@github.com:RyanGC93/bash_scriptsAndAliases.git
