@@ -1,3 +1,5 @@
+
+
 # This is a setup guide for my personal setup
 
 1. nnn 
@@ -32,5 +34,10 @@ cd /usr/local/bin; curl https://getmic.ro | sudo bash
 4. [gh collaborator](https://github.com/maxogden/collaborator)
 4. bash autocomple
 -- sudo apt install bash-completion
+5. terminal header
+- https://null-byte.wonderhowto.com/how-to/change-your-terminal-header-0163720/
+6. tmux
+-- https://github.com/NHDaly/tmux-better-mouse-mode
+7. navi
 ## Settings Repos
 1. git@github.com:RyanGC93/bash_scriptsAndAliases.git

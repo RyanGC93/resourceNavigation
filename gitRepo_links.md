@@ -1,3 +1,4 @@
+
 # Git Repos
 
 ## WEEK11
@@ -12,7 +13,8 @@ Projects
 ## WEEK12
 
 [excercise group project](git@github.com:RyanGC93/fitnessOverflow.git)
-- https://github.com/RyanGC93/express-amusement-park-tracker-with-auth.git
-- https://github.com/RyanGC93/express-reading-list-with-auth-starter.git
+git@github.com:RyanGC93/express-amusement-park-tracker-with-auth.git
+- RyanGC93/express-amusement-park-tracker-with-auth.git
+- RyanGC93/express-reading-list-with-auth-starter.git
 - https://github.com/RyanGC93/xpress-sessions-starteer.git
 - git@github.com:RyanGC93/Express-Starter.git
