@@ -1,0 +1,96 @@
+Database Schema
+===============
+
+[](#users)`Users`
+-----------------
+
+| column name | data type | details |
+| --- | --- | --- |
+| `id` | integer | not null, primary key |
+| `username` | string | not null, indexed, unique |
+| `email` | string | not null, indexed, unique |
+| `hashedPassword` | string | not null |
+| `createdAt` | datetime | not null |
+| `updatedAt` | datetime | not null |
+
+*   unique index on `username`
+*   unique index on `email`
+*   Sequelize `hasMany` `Question` association
+*   Sequelize `hasMany` `Votes` association
+*   Sequelize `belongsToMany` `Question` through `Votes` as `LikedQuestion` association
+
+[](#Question)`Question`
+-------------------
+
+| column name | data type | details |
+| --- | --- | --- |
+| `id` | integer | not null, primary key |
+| `body` | string | not null |
+| `authorId` | integer | not null, indexed, foreign key |
+| `createdAt` | datetime | not null |
+| `updatedAt` | datetime | not null |
+
+*   `authorId` references `Users` table
+*   index on `authorId`
+*   Sequelize `belongsTo` `Users` association
+*   Sequelize `hasMany` `Votes` association
+*   Sequelize `belongsToMany` `Users` through `Votes` as `LikedUsers` association
+
+[](#Answer)`Answer`
+-------------------
+
+| column name | data type | details |
+| --- | --- | --- |
+| `id` | integer | not null, primary key |
+| `body` | string | not null |
+| `questionId` | integer | not null , foreign key  |
+| `authorId` | integer | not null, indexed, foreign key |
+| `createdAt` | datetime | not null |
+| `updatedAt` | datetime | not null |
+
+*   `authorId` references `Users` table
+*   `questionId` references `Questions` table
+*   index on `authorId`
+*   Sequelize `belongsTo` `Users` association
+*   Sequelize `hasMany` `Votes` association
+*   Sequelize `belongsToMany` `Users` through `Votes` as `LikedUsers` association
+
+[](#Votes)`Votes`
+-----------------
+
+| column name | data type | details |
+| --- | --- | --- |
+| `id` | integer | not null, primary key |
+| `userId` | integer | not null, indexed, foreign key |
+| `answerId` | integer | indexed, foreign key |
+| `voteType` | string | not null, |
+| `createdAt` | datetime | not null |
+| `updatedAt` | datetime | not null |
+
+*   `userId` references `Users` table
+*   `questionId` references `Question` table
+*   Sequelize `belongsTo` `Users` association
+*   Sequelize `belongsTo` `Question` association
+
+[](#Comments)`Comments`
+-----------------
+
+| column name | data type | details |
+| --- | --- | --- |
+| `id` | integer | not null, primary key |
+| `userId` | integer | not null, indexed, foreign key |
+| `questionId` | integer | indexed, foreign key |
+| `answerId` | integer | indexed, foreign key |
+| `body` | text | not null, |
+| `createdAt` | datetime | not null |
+| `updatedAt` | datetime | not null |
+
+*   `userId` references `Users` table
+*   `questionId` references `Question` table
+*   `answerId` references `Answer` table
+*   Sequelize `belongsTo` `Users` association
+*   Sequelize `belongsTo` `Question` association
+
+## Schema Diagram
+![Fitness OverFlow](https://i.imgur.com/VTqKjMm.png)
+- [Link to Schema Diagram](https://dbdiagram.io/d/5febf10180d742080a348fd4)

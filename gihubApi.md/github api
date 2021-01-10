@@ -1,0 +1,54 @@
+// this is a curl to see list all repos
+function gitDelete(){
+  echo "what is the name of the repo you want to delete"
+  read repoName
+  curl \
+    -X DELETE \
+    -H "Authorization token ${TOKEN}" \
+    https://api.github.com/repos/${GH_USER}/${repoName}
+}
+
+
+function gitSearch(){
+  clear
+  echo "Search Returns ssh_url, html_url, name"
+	echo "Would you Like to search All repos Or a specific one?"
+	echo
+	options=(
+		"All"
+		"Specific"
+	)
+	select_option "${options[@]}"
+	choice=$?
+	value=${options[$choice]}
+	echo $choice
+	if [ "$value" = "Specific" ];
+		then
+		echo "Whats the name of repo?"
+    read answer
+      curl \
+  -H "Authorization: token ${TOKEN}" \
+  https://api.github.com/user/repos/${answer} |npx jq '.[].name, .[].ssh_url' 
+    exit
+
+	fi
+	if [ $choice -eq 1 ]
+		then
+    echo "What visiblity do you want to search"
+    echo "Input: all, private, or public"
+    read visiblity
+    echo "How would you like to sort"
+    echo "Input: created, updated, pushed, or full_name"
+    read sort
+    echo "How Many results would you like (max 100)?"
+    read number
+    curl \
+  -i -H "Authorization: token ${TOKEN}" \
+    https://api.github.com/user/repos \
+      -d '{ \
+        "visibility": "${visiblity}", \
+        "sort": "${sort}", \
+        "per_page": ${number}, \
+      }' |npx jq '.[].name, .[].ssh_url , .[].html_url' 
+	fi
+}

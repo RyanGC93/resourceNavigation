@@ -42,11 +42,7 @@ Multiple Choice Quiz
     
     JSON Web Token
     
-    JSON Web Task
-    
-    JSON Web Talisman
-    
-    JSON Web Totem
+
     
 *   Which of the following is NOT a function of auth tokens?
     
@@ -58,23 +54,23 @@ Multiple Choice Quiz
     
     Authentication
     
-*   What is OAuth?
+-  What is OAuth?
     
     An open-source package for secure login services
     
     A secure hashing algorithm
     
-    A protocol for authenticating users via a trusted 3rd party
+   ** A protocol for authenticating users via a trusted 3rd party**
     
     A password encryption protocol
     
 *   What are the three sections of a JWT?
     
-    Signature
+   ** Signature**
     
-    Payload (or claims)
+   ** Payload (or claims)**
     
-    Header
+   ** Header**
     
     Hashing function
     
@@ -94,7 +90,7 @@ Multiple Choice Quiz
     
     RFC 6719
     
-    There is no RESTful standard.
+    **There is no RESTful standard.**
     
     RFC 1918
     
@@ -112,7 +108,7 @@ Multiple Choice Quiz
     
     Denying access to a resource to a known actor because they do not have permissions.
     
-    The process of identifying an actor given known credentials.
+  **  The process of identifying an actor given known credentials.**
     
     The process of registering an account for an actor.
     
@@ -140,7 +136,7 @@ Multiple Choice Quiz
     
 *   Which of the following Express built-in middleware objects will allow you to parse the body of an HTTP request that contains data formatted in the _application/json_ format?
     
-    `express.json()`
+  **  `express.json()`**
     
     `express.static()`
     
@@ -148,7 +144,7 @@ Multiple Choice Quiz
     
     `express.bodyParser()`
     
-*   What is the purpose of cryptographic salt?
+-   What is the purpose of cryptographic salt?
     
     Protects against rainbow attacks
     
@@ -164,7 +160,7 @@ Multiple Choice Quiz
     
     Zero
     
-    Two
+   ** Two**
     
     One
     
@@ -174,7 +170,7 @@ Multiple Choice Quiz
     
     `bearer-token-extract`
     
-    `express-bearer-token`
+    **`express-bearer-token`**
     
     `bearer-token-express`
     
@@ -186,7 +182,7 @@ Multiple Choice Quiz
         
         Get a resource.
         
-        Update a resource.
+        **Update a resource.**
         
     *   What does ReST stand for?
         
@@ -196,15 +192,15 @@ Multiple Choice Quiz
         
         Representational Status Transitions
         
-        Representational State Transfer
+        **Representational State Transfer**
         
         Really Strong Tea
         
     *   If you have middleware function named `checkThis` that you would like to register for a particular route, which of the following would allow you to do this in Express?
         
         `app.get(checkThis, '/widgets', (req, res) => { ... });`
-        
-        `app.get('/widgets', checkThis, (req, res) => { ... });`
+        **
+        `app.get('/widgets', checkThis, (req, res) => { ... });`**
         
         `app.get('/widgets', (req, res) => { ... }, checkThis);`
         
@@ -216,13 +212,13 @@ Multiple Choice Quiz
         
         `/books/38229/pages`
         
-        `/products/29183-eyelash-curler`
+**        `/products/29183-eyelash-curler`
         
-        `/cars/17`
+        `/cars/17`**
         
     *   What Express middleware package in NPM helps you implement Cross-Site Resource Sharing?
         
-        `cors`
+**        `cors`**
         
         `corsjs`
         
@@ -232,15 +228,15 @@ Multiple Choice Quiz
         
     *   Which of the following hash algorithms are recommended for use to hash passwords to store them at rest, like in a database?
         
-        Bcrypt
+**        Bcrypt**
         
         md5
         
         SHA1
         
-        PBKDF2
+ **       PBKDF2**
         
-        Argon2
+**        Argon2**
         
     *   What is the purpose of a JWT signature?
         

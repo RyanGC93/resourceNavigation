@@ -39,5 +39,7 @@ cd /usr/local/bin; curl https://getmic.ro | sudo bash
 6. tmux
 -- https://github.com/NHDaly/tmux-better-mouse-mode
 7. navi
+8. jq
+- sudo apt-get install jq
 ## Settings Repos
 1. git@github.com:RyanGC93/bash_scriptsAndAliases.git

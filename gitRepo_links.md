@@ -14,7 +14,13 @@ Projects
 
 [excercise group project](git@github.com:RyanGC93/fitnessOverflow.git)
 git@github.com:RyanGC93/express-amusement-park-tracker-with-auth.git
-- RyanGC93/express-amusement-park-tracker-with-auth.git
-- RyanGC93/express-reading-list-with-auth-starter.git
+- git@github.com:RyanGC93/express-amusement-park-tracker-with-auth.git
+- git@github.com:RyanGC93/express-reading-list-with-auth-starter.git
 - https://github.com/RyanGC93/xpress-sessions-starteer.git
 - git@github.com:RyanGC93/Express-Starter.git
+
+
+### Week 12
+
+1. Thu jwtAuth
+git@github.com:RyanGC93/jswt_autho_walkthrough.git

@@ -1,4 +1,4 @@
-Quick Start
+# Quick Start
 If you've previously installed gulp globally, run npm rm --global gulp before following these instructions. For more information, read this Sip.
 
 Check for node, npm, and npx
@@ -15,6 +15,7 @@ If they are not installed, follow the instructions here.
 
 Install the gulp command line utility
 npm install --global gulp-cli
+
 Create a project directory and navigate into it
 npx mkdirp my-project
 cd my-project
