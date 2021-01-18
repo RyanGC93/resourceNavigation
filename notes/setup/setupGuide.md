@@ -43,3 +43,15 @@ cd /usr/local/bin; curl https://getmic.ro | sudo bash
 - sudo apt-get install jq
 ## Settings Repos
 1. git@github.com:RyanGC93/bash_scriptsAndAliases.git
+
+
+
+#Shell
+
+
+zsh
+- oh my zsh
+- plugins
+1. git
+2. zsh-autosuggestions
+3. zsh-syntax-highlighting
