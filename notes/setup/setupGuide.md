@@ -39,8 +39,13 @@ cd /usr/local/bin; curl https://getmic.ro | sudo bash
 6. tmux
 -- https://github.com/NHDaly/tmux-better-mouse-mode
 7. navi
+- https://github.com/denisidoro/navi
 8. jq
+9. tig
+- https://github.com/jonas/tighttps://github.com/jonas/tig
 - sudo apt-get install jq
+10. fzf
+- You have to install the latest to make navi work
 ## Settings Repos
 1. git@github.com:RyanGC93/bash_scriptsAndAliases.git
 
@@ -55,3 +60,14 @@ zsh
 1. git
 2. zsh-autosuggestions
 3. zsh-syntax-highlighting
+
+-fonts
+ [powerline/fonts: Patched fonts for Powerline users.](https://github.com/powerline/fonts)
+
+
+Help
+
+[Make xsel/xclip work on wslKonfekt/xclip-xsel-WSL: make xclip and xsel in WSL read and write to the Microsoft Windows clipboard](https://github.com/Konfekt/xclip-xsel-WSL)
+
+Extensions
+- [Tampermonkey • Chrome](https://www.tampermonkey.net/)
